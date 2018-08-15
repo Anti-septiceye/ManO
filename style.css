@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+@import url('https://fonts.googleapis.com/css?family=Merriweather:400,700');
+
+body {
+  text-align: center;
+  background-color: #a09f9b;
+  color:black;
+}
+
+@font-face {
+  font-family: "Kingthings-Trypewriter-2";
+  src: url("Kingthings-Trypewriter-2.ttf");
+}
+
+h3 {
+  font-family: "Kingthings-Trypewriter-2";
+}
+
+h1 {
+  font-family: "Kingthings-Trypewriter-2";
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #000;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #c99000;
+  color: white;
