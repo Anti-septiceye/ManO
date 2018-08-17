@@ -98,3 +98,12 @@ p{
     font-family: inherit;
     margin: 0;
 }
+
+#ShowBtn {
+    width: 100%;
+    padding: 50px 0;
+    text-align: center;
+    background-color: #a09f9b;
+    margin-top: 20px;
+    color: ;   
+}
