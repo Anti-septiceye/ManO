@@ -36,6 +36,7 @@ p{
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  border-radius: 12px;
 }
 
 .topnav a:hover {
@@ -97,6 +98,7 @@ p{
     background-color: inherit;
     font-family: inherit;
     margin: 0;
+    border-radius: 12px;
 }
 
 #ShowBtn {
@@ -105,7 +107,8 @@ p{
     text-align: center;
     background-color: #a09f9b;
     margin-top: 20px;
-    color: black;   
+    color: black;
+    border-radius: 12px;
 }
 
 .button {
@@ -119,4 +122,5 @@ p{
     font-size: 16px;
     margin: 4px 2px;
     cursor: pointer;
+    border-radius: 12px;
 }
