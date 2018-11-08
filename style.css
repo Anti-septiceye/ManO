@@ -134,3 +134,11 @@ p{
 }
 
 .show {display:block;}
+
+.dropdown-content2 {
+  display: none;
+  background-color: #a09f9b;
+  width: 410px;
+  z-index: 1;
+  padding: 10px 20px;
+}
