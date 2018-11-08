@@ -131,6 +131,7 @@ p{
   width: 410px;
   z-index: 1;
   padding: 10px 20px;
+  text-align: left;
 }
 
 .show {display:block;}
@@ -141,4 +142,5 @@ p{
   width: 410px;
   z-index: 2;
   padding: 10px 20px;
+  text-align: left;
 }
