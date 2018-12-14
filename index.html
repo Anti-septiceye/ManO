@@ -38,6 +38,8 @@
           3. Payday 2 VR<br>
           4. Lost Cave (VR)<br>
           5. Zero Caliber (VR)<br>
+          6. Subnautica (VR)<br>
+          7. Paranormal Activity (VR)<br>
           more soon</p>
       </div>
     </div>
@@ -46,14 +48,59 @@
       <button onclick="mijnFunctie()" class="dropbutton">Finished Series</button>
       <div id="mijnBenedenval" class="dropdown-content2">
         <p>
-          will be updated shortly
+          1. Rick and Morty Virtual Rick-ality (VR)<br>
+          2. Arizona Sunshine (VR)<br>
+          3. Robo Recall (VR)<br>
+          4. Batman Arkham VR<br>
+          5. Detached (VR)<br>
+          <span id="dots">...</span>
+          <span id="more">
+            6. Dreadhalls (VR)<br>
+            7. Technolust (VR)<br>
+            8. Smashing the Battle (VR)<br>
+            9. Call of the Starseed (VR)<br>
+            10. Superhot VR<br>
+            11. I Expect You To Die (VR)<br>
+            12. The climb (VR)<br>
+            13. Serious Sam VR<br>
+            14. Dragon Front (VR)<br>
+            15. Thumper (VR)<br>
+            16. The Elder Scrolls<br>
+            17. The Lab (VR)<br>
+            18. Everspace (VR)<br>
+            19. Robinson the Journey (VR)<br>
+            20. Chronos (VR)<br>
+            21. Edge of Nowhere (VR)<br>
+            22. The Solus Project (VR)<br>
+            23. The Vanishing of Ethan Carter (VR)<br>
+            24. Wilson's Heart (VR)<br>
+            25. Don't Knock Twice (VR)<br>
+          </span>
+        </p>
+        <button onclick="ReadMore()" id="myBtn">Read more</button>
       </div>
+    </div>
     <script>
       function myFunction() {
         document.getElementById("myDropdown").classList.toggle("show");
       }
       function mijnFunctie() {
         document.getElementById("mijnBenedenval").classList.toggle("show");
+      }
+      function ReadMore() {
+        var dots = document.getElementById("dots");
+        var moreText = document.getElementById("more");
+        var btnText = document.getElementById("myBtn");
+
+        if (dots.style.display === "none") {
+          dots.style.display = "inline";
+          btnText.innerHTML = "Read more"; 
+          moreText.style.display = "none";
+        } else {
+          dots.style.display = "none";
+          btnText.innerHTML = "Read less"; 
+          moreText.style.display = "inline";
+        }
       }
     </script>
   </body>
