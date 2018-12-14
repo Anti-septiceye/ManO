@@ -132,3 +132,5 @@ body {
   text-align: left;
 }
 .show {display:block;}
+
+#more {display: none;}
