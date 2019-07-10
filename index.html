@@ -27,94 +27,19 @@
     <h1>Series</h1>
     <h3>On this page you will be told of ongoing and finished series.</h3>
     <br>
-    <p>On this page you will see two buttons. One of which says "ongoing series" and one that says "finished series".</p>
-    <p>These are quite self-explanatory. Both of these lists are updated every sunday but are in a random order</p>
+    <p>On this page you will see a button. Which says "ongoing series".</p>
+    <p>This is quite self-explanatory. This is very unregularly updated.</p>
     <div class="dropdwn">
       <button onclick="myFunction()" class="dropbutton">Ongoing Series</button>
       <div id="myDropdown" class="dropdown-content1">
         <p>
           1. Empires Of The Undergrowth<br>
-          2. Assassin's Creed Odyssey (streams)<br>
-          3. Payday 2 VR<br>
-          4. Lost Cave VR<br>
-          5. Zero Caliber VR (awaiting levels)<br>
-          6. Subnautica VR<br>
-          7. Paranormal Activity VR<br>
-          8. Furious Seas VR<br>
-          9. Shadow Uprising VR<br>
-          10. Ground Runner Trials VR (awaiting levels)<br>
-          11. War dust VR (awaiting levels)<br>
-          12. Derail Valley VR<br>
-          13. Stand Out VR<br>
-          14. A Fisherman's Tale VR<br>
+          2. Monster Hunter World (streams)<br>
+          3. Trover saves the universe <br>
+          4. The Spy Who Shrunk Me <br>
+          5. A Township Tale <br>
           more soon</p>
       </div>
     </div>
-    <br> <br>
-    <div class="dropdwn">
-      <button onclick="mijnFunctie()" class="dropbutton">Finished Series</button>
-      <div id="mijnBenedenval" class="dropdown-content2">
-        <p>
-          1. Rick and Morty Virtual Rick-ality VR<br>
-          2. Arizona Sunshine VR<br>
-          3. Robo Recall VR<br>
-          4. Batman Arkham VR<br>
-          5. Detached VR<br>
-          <span id="dots">...</span>
-          <span id="more">
-            6. Dreadhalls VR<br>
-            7. Technolust VR<br>
-            8. Smashing the Battle VR<br>
-            9. Call of the Starseed VR<br>
-            10. Superhot VR<br>
-            11. I Expect You To Die VR<br>
-            12. The climb VR<br>
-            13. Serious Sam VR<br>
-            14. Dragon Front VR<br>
-            15. Thumper VR<br>
-            16. The Elder Scrolls<br>
-            17. The Lab VR<br>
-            18. Everspace VR<br>
-            19. Robinson the Journey VR<br>
-            20. Chronos VR<br>
-            21. Edge of Nowhere VR<br>
-            22. The Solus Project VR<br>
-            23. The Vanishing of Ethan Carter VR<br>
-            24. Wilson's Heart VR<br>
-            25. Don't Knock Twice VR<br>
-            26. XCOM2<br>
-            27. Transference VR<br> 
-            28. Dead Effect 2 VR<br>
-            29. Kingdom Come Deliverance<br>
-            30. The Forest VR<br>
-            more soon
-          </span>
-        </p>
-        <button onclick="ReadMore()" id="myBtn">Read more</button>
-      </div>
-    </div>
-    <script>
-      function myFunction() {
-        document.getElementById("myDropdown").classList.toggle("show");
-      }
-      function mijnFunctie() {
-        document.getElementById("mijnBenedenval").classList.toggle("show");
-      }
-      function ReadMore() {
-        var dots = document.getElementById("dots");
-        var moreText = document.getElementById("more");
-        var btnText = document.getElementById("myBtn");
-
-        if (dots.style.display === "none") {
-          dots.style.display = "inline";
-          btnText.innerHTML = "Read more"; 
-          moreText.style.display = "none";
-        } else {
-          dots.style.display = "none";
-          btnText.innerHTML = "Read less"; 
-          moreText.style.display = "inline";
-        }
-      }
-    </script>
   </body>
 </html>
